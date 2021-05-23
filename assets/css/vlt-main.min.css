@@ -5830,7 +5830,7 @@ dl dd {
 }
 
 .vlt-isotope-filters li {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 700;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -5861,7 +5861,7 @@ dl dd {
     transform: scaleX(0);
     background-color: currentColor
 }
-
+/* navbar bawah */
 .vlt-isotope-filters li.active,
 .vlt-isotope-filters li:hover {
     color: #e82e31
@@ -5874,14 +5874,14 @@ dl dd {
 }
 
 .vlt-isotope-filters--white {
-    color: rgba(255, 255, 255, .5)
+    color: rgba(255, 249, 249, 0.384)
 }
 
 .vlt-isotope-filters--white li.active,
 .vlt-isotope-filters--white li:hover {
     color: #fff
 }
-
+/* end navbar */
 .vlt-isotope-grid .gutter-sizer {
     width: 0
 }
