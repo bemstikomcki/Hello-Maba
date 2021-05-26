@@ -983,7 +983,7 @@ dl dd {
 }
 
 .vlt-gap-30 {
-    height: 30px
+    height: 0px
 }
 
 @media only screen and (max-width:575px) {
@@ -7194,6 +7194,8 @@ dl dd {
 
 .vlt-section-title--style-2 .vlt-section-title__title {
     font-size: 130px
+   
+
 }
 
 @media only screen and (max-width:767px) {
@@ -7468,7 +7470,7 @@ dl dd {
     -webkit-transition: -webkit-transform .3s;
     transition: -webkit-transform .3s;
     transition: transform .3s;
-    transition: transform .3s, -webkit-transform .3s
+    transition: transform .3s, -webkit-transform .3s;
 }
 
 .vlt-service-box img {
