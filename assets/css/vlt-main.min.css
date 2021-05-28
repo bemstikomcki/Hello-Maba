@@ -2913,7 +2913,7 @@ dl dd {
 .vlt-footer--style-2 {
     padding: 145px 0;
     color: #fff;
-    background-image: url(../img/root/footer-style-2.png);
+    /* background-image: url(../img/root/footer-style-2.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
