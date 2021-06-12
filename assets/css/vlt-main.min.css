@@ -2,6 +2,33 @@
     --pf: Swansea, sans-serif
 }
 
+/* @media only screen and (min-width: 576px){
+    media {
+        margin-bottom: 10;
+    }
+
+} */
+.spin {
+    margin-top: 100px
+}
+
+#spinner {
+    animation: rotate 1s infinite linear;
+    transform-origin: 50px 50px
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+
+
 @-webkit-keyframes vlt_animate_icon_top_right {
     49% {
         -webkit-transform: translateX(50%) translateY(-50%);
@@ -561,11 +588,11 @@ dl dd {
 }
 
 .has-primary-color {
-    color: #e82e31
+    color: #5bc8de
 }
 
 .has-primary-background-color {
-    background-color: #e82e31
+    background-color: #5bc8de
 }
 
 .has-white-color {
@@ -2324,17 +2351,18 @@ dl dd {
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
-    background-color: #e82e31
+    background-color: #5bc8de
 }
 
 .vlt-header--dark .vlt-nav--default .sf-menu>li>a span::after {
     background-color: #fff
 }
 
+/* warna navbar */
 .vlt-nav--default .sf-menu>li.current-menu-item>a,
 .vlt-nav--default .sf-menu>li.sfHover>a,
 .vlt-nav--default .sf-menu>li:hover>a {
-    color: #e82e31
+    color: #5bc8de
 }
 
 .vlt-header--dark .vlt-nav--default .sf-menu>li.current-menu-item>a,
@@ -4141,12 +4169,14 @@ dl dd {
 }
 
 .vlt-project-showcase--style-3 .vlt-project-showcase__next-slide {
+
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
-    text-align: right
+    text-align: right;
+    height: 50;
 }
 
 @media only screen and (max-width:991px) {
@@ -4154,6 +4184,7 @@ dl dd {
         display: none
     }
 }
+
 
 .vlt-project-showcase--style-3 .vlt-project-showcase__next-slide a {
     position: relative;
@@ -4262,7 +4293,7 @@ dl dd {
 
 .vlt-project-showcase--style-3 .vlt-project-showcase__description {
     position: relative;
-    max-width: 280px;
+    max-width: 580px;
     margin-top: 45px;
     margin-left: 170px;
     color: #bcbcbc
@@ -5861,6 +5892,7 @@ dl dd {
     transform: scaleX(0);
     background-color: currentColor
 }
+
 /* navbar bawah */
 .vlt-isotope-filters li.active,
 .vlt-isotope-filters li:hover {
@@ -5881,6 +5913,7 @@ dl dd {
 .vlt-isotope-filters--white li:hover {
     color: #fff
 }
+
 /* end navbar */
 .vlt-isotope-grid .gutter-sizer {
     width: 0
@@ -6377,7 +6410,7 @@ dl dd {
 
 .vlt-btn--secondary {
     color: #fff;
-    background-color: #101010
+    background-color: #e82e31
 }
 
 .vlt-btn--secondary.vlt-btn--white {
@@ -6386,7 +6419,7 @@ dl dd {
 }
 
 .vlt-btn--secondary span {
-    background-color: #e82e31
+    background-color: #101010
 }
 
 .vlt-btn--secondary:hover {
@@ -6414,7 +6447,8 @@ dl dd {
 .vlt-btn,
 .vlt-btn--md {
     font-size: 18px;
-    padding: 20px 60px
+    padding: 10px 80px;
+    margin-bottom: 10px
 }
 
 .vlt-btn--lg {
@@ -7194,8 +7228,6 @@ dl dd {
 
 .vlt-section-title--style-2 .vlt-section-title__title {
     font-size: 130px
-   
-
 }
 
 @media only screen and (max-width:767px) {
@@ -7546,7 +7578,7 @@ dl dd {
 }
 
 .vlt-service-box:hover .vlt-service-box__content {
-    background-color: rgba(232, 46, 49, .9)
+    /* background-color: rgba(160, 75, 75, 0.9)) */
 }
 
 .vlt-service-box:hover .vlt-service-box__icon i {
@@ -7584,7 +7616,7 @@ dl dd {
 }
 
 .vlt-simple-link {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.1;
     position: relative;
@@ -7988,7 +8020,7 @@ dl dd {
     transform: translateY(100%);
     text-align: center;
     color: #fff;
-    background-color: #e82e31
+    background-color: rgb(47, 218, 180)
 }
 
 .vlt-team-member--style-1:hover .vlt-team-member__socials {
@@ -8025,7 +8057,7 @@ dl dd {
     transform: translateX(-100%);
     text-align: center;
     color: #fff;
-    background-color: #e82e31
+    background-color: #455b65
 }
 
 .vlt-team-member--style-2:hover .vlt-team-member__socials {
